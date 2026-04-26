@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Keep your existing resets below if you have them */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
