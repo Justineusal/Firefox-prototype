@@ -66,7 +66,7 @@ export const RegularBrowserShell = ({
               <img src="/down_icon.webp" className={`w-2.5 object-contain opacity-60 transition-transform duration-200 ${isModeOpen ? 'rotate-180' : ''}`} alt="" />
               <div className="flex items-center gap-2">
                  <img src="/firefox_icon.webp" className="w-5 h-5 object-contain" alt="" />
-                 <span className={`text-[12px] text-gray-600 ${thinRegularClass}`}>Regular Window</span>
+                 <span className={`text-[12px] text-gray-600 ${thinRegularClass}`}>Classic Window</span>
               </div>
             </div>
 
@@ -76,7 +76,7 @@ export const RegularBrowserShell = ({
                   {/* Active Regular Mode */}
                   <div className="flex items-center gap-3 p-2.5 bg-[#F0F0F4] rounded-[6px] cursor-default">
                     <img src="/firefox_icon.webp" className="w-7 h-7 object-contain" alt="" />
-                    <span className="text-[15px] text-[#5B5B66] font-medium tracking-tight">Regular Window</span>
+                    <span className="text-[15px] text-[#5B5B66] font-medium tracking-tight">Classic Window</span>
                   </div>
 
                   {/* Switch to Smart Mode */}

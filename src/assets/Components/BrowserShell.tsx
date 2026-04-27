@@ -137,7 +137,7 @@ export const BrowserShell = ({
               <div className="absolute top-9 right-0 w-[240px] bg-white rounded-[8px] shadow-[0_10px_40px_rgba(0,0,0,0.15)] border border-gray-100 p-1.5 z-[100] animate-in fade-in zoom-in-95 duration-150">
                 <div className="flex flex-col">
                   <div onClick={() => { onSwitchMode?.('regular'); setIsModeOpen(false); }} className="flex items-center gap-3 p-2.5 hover:bg-gray-50 rounded-[6px] transition-colors group cursor-pointer">
-                    <img src={assets.firefox} className="w-7 h-7 object-contain" alt="" /><span className="text-[15px] text-[#5B5B66] font-medium tracking-tight">Regular Window</span>
+                    <img src={assets.firefox} className="w-7 h-7 object-contain" alt="" /><span className="text-[15px] text-[#5B5B66] font-medium tracking-tight">Classic Window</span>
                   </div>
                   <div className="flex items-center gap-3 p-2.5 bg-[#F0F0F4] rounded-[6px] cursor-default">
                     <img src="/Pill_SW.webp" className="w-7 h-7 object-contain" alt="" /><span className="text-[15px] text-[#5B5B66] font-medium tracking-tight">Smart Window</span>
